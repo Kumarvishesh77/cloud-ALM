@@ -1,0 +1,19 @@
+{
+  "name": "cloud-alm",
+  "version": "0.1.0",
+  "description": "SAP Cloud ALM integration with Claude AI",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "summarize": "node src/index.js summarize",
+    "prompt": "node src/index.js prompt"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^1.0.0"
+  }
+}
