@@ -5,3 +5,17 @@ __pycache__/
 *.pyd
 .env.*
 node_modules/
+package-lock.json
+npm-debug.log
+venv/
+*.db
+*.sqlite
+.vscode/
+.idea/
+*.log
+dist/
+build/
+*.egg-info/
+.DS_Store
+.cache/
+.parcel-cache/
